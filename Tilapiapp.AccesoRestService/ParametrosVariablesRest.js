@@ -25,10 +25,6 @@ let call = () => {
             } else {
                 resjec(response.statusCode);
             }
-
-
-
-
         });
     });
 
