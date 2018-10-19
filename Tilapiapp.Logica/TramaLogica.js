@@ -1,5 +1,5 @@
 const serviceRest = require("../Tilapiapp.AccesoRestService/RestServiceManager") //Si se necesita
-
+const excepciones = require("./ManejoExcepcionesLogica");
 const db = require("../Tilapiapp.AccesoDatos/DBTrama");
 
 
@@ -16,8 +16,15 @@ let InsertTrama = async(datoTrama) => {
 let GetUltimaTrama = async() => {
     db.GetUltimaTrama()
         .then((dato) => {
-            console.log("Dato enviado: ", dato);
-            EnviarTramaTanque(dato)
+            if (dato.trama == -1 && dato.idTrama == -1) {
+                console.log('La última trama ya fue enviada, validar estado sensor');
+                var mensajeExcepcion = 'La última trama ya fue enviada, validar estado sensor';
+                var metodo = 'TramaLogica.EnviarTramaTanque';
+                excepciones.RegistrarExcepcion(mensajeExcepcion, metodo);
+            } else {
+                EnviarTramaTanque(dato);
+            }
+
         }).catch((err) => {
             console.log("Error al procesar la información: ", err);
         });
@@ -30,14 +37,14 @@ let EnviarTramaTanque = async(objTrama) => {
         var result = await serviceRest.EnviarTrama(objTrama.idTrama, objTrama.trama);
         console.log(result);
     } catch (error) {
-        console.log("Error: ", error);
+        excepciones.RegistrarExcepcion("No hay conexión al servicio", "TramaLogica.EnviarTramaTanque");
     }
 
 }
 
 let AnalizarTrama = (trama) => {
     var arrayTrama = trama.split(",");
-    console.log(`${arrayTrama[3]}, ${arrayTrama[4]}, ${arrayTrama[5]}, ${arrayTrama[6]} `);
+    console.log(`${arrayTrama[2] / 10}, ${arrayTrama[3]/10}, ${arrayTrama[4]/10}, ${arrayTrama[5]/10} `);
 }
 
 module.exports = {

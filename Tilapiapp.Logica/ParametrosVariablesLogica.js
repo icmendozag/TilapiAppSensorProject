@@ -1,5 +1,6 @@
 const serviceRest = require("../Tilapiapp.AccesoRestService/RestServiceManager")
 const db = require("../Tilapiapp.AccesoDatos/DBParametrosVariables");
+const excepciones = require("./ManejoExcepcionesLogica");
 
 
 let getParametrosVariables = async() => {
@@ -11,7 +12,7 @@ let getParametrosVariables = async() => {
         });
         console.log("Parametros Actualizados");
     } catch (error) {
-        console.log(error);
+        excepciones.RegistrarExcepcion("No hay conexión al servicio", "ParametrosVariablesLogica.getParametrosVariables");
     }
 
 }

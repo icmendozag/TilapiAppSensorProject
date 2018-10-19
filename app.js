@@ -2,10 +2,17 @@ const { InitParametrosIniciales } = require("./config");
 const { InitPort } = require("./InitPort")
 const parametrosLogica = require("./Tilapiapp.Logica/ParametrosVariablesLogica");
 const logicaTrama = require("./Tilapiapp.Logica/TramaLogica");
+const argv = require('./yargs').argv;
 
+let idTanque = argv._[1];
+let userService = argv._[3];
+let passwordService = argv._[5];
 
-InitParametrosIniciales();
+InitParametrosIniciales(idTanque, userService, passwordService);
 
+console.log("Id del tanque: ", global.idTanque);
+console.log("Usuario: ", global.userService);
+console.log("Password: ", global.passwordService);
 
 var intervaloActualizacionParametros;
 var intervaloEnviarTrama;
@@ -13,7 +20,6 @@ var intervaloEnviarTrama;
 /*
 USO DE DOS INTERVALOS
 */
-
 
 
 let iniciarApp = async() => {
@@ -36,17 +42,15 @@ let IntervaloActualizacionParametros = () => {
     intervaloActualizacionParametros = setInterval(function() {
 
         parametrosLogica.getParametrosVariables();
-        // console.log("Tiempo Transcurrido: ", tiempoTranscurridoVigenciaParametros);
+        //console.log("Tiempo Transcurrido: ", tiempoTranscurridoVigenciaParametros);
         //console.log("Tiempo: ", global.tiempoActualizacionParametros);
         //console.log("TiempoAlcanzado: set new time");
-        global.tiempoActualizacionParametros = 20000;
-        // global.fechaInicioVigenciaParametro = new Date();
+        //global.tiempoActualizacionParametros = 20000;
+        //global.fechaInicioVigenciaParametro = new Date();
         ReconstruirIntervalosTanque();
 
     }, global.tiempoActualizacionParametros);
 }
-
-
 
 //#region Generar Intervalos
 

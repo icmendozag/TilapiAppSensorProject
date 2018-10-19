@@ -22,7 +22,7 @@ let GetUltimaTrama = () => {
         DbConection.query(sql, function(err, result) {
             if (err) reject(err);
             else {
-                resolve(result[1][0]);
+                resolve(result[2][0]);
             }
         });
     });
