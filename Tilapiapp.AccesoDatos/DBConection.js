@@ -1,16 +1,21 @@
 const sql = require("mysql");
 
-
 //Raspberry
-
+/*
 let DbConection = sql.createConnection({
-    host: "192.168.0.131",
+    host: "192.168.0.17",
     user: "root",
     password: "Ic3827662/*",
     database: "SensoresDB"
 });
+*/
 
-
+let DbConection = sql.createConnection({
+    host: "192.168.0.131",
+    user: "pi",
+    password: "Ic3827662/*-",
+    database: "SensoresDB"
+});
 
 //Server Ubuntu
 /*

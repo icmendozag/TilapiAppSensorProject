@@ -7,17 +7,18 @@ let InsertTrama = async(datoTrama) => {
     try {
         AnalizarTrama(datoTrama);
         await db.SetTrama(datoTrama);
-    } catch (error) {
-        console.log("Se generó error: ", error);
-        throw error;
+    } catch (err) {
+        excepciones.RegistrarExcepcion(`Error al insertar Trama: ${err}`, `TramaLogica.InsertTrama`);
+
     }
 }
 
-let GetUltimaTrama = async() => {
+let SendTrama = async() => {
     db.GetUltimaTrama()
         .then((dato) => {
             if (dato.trama == -1 && dato.idTrama == -1) {
-                console.log('La última trama ya fue enviada, validar estado sensor');
+                //console.log('La última trama ya fue enviada, validar estado sensor');
+
                 var mensajeExcepcion = 'La última trama ya fue enviada, validar estado sensor';
                 var metodo = 'TramaLogica.EnviarTramaTanque';
                 excepciones.RegistrarExcepcion(mensajeExcepcion, metodo);
@@ -26,7 +27,7 @@ let GetUltimaTrama = async() => {
             }
 
         }).catch((err) => {
-            console.log("Error al procesar la información: ", err);
+            excepciones.RegistrarExcepcion(`Error al enviar información: ${err}`, `TramaLogica.SendTrama`);
         });
 
 }
@@ -34,8 +35,14 @@ let GetUltimaTrama = async() => {
 let EnviarTramaTanque = async(objTrama) => {
 
     try {
-        var result = await serviceRest.EnviarTrama(objTrama.idTrama, objTrama.trama);
-        console.log(result);
+        console.log("Ingresa a enviar trama");
+        var Trama = JSON.stringify({ IdTanque: global.idTanque, Trama: objTrama.trama })
+        var result = await serviceRest.EnviarTrama(Trama);
+        if (result.result == false) {
+            excepciones.RegistrarExcepcion(result.message, "TramaLogica.EnviarTramaTanque");
+        } else if (result.result == true) {
+            excepciones.RegistrarExcepcion(`Trama cargada correctamente: ${Trama}`);
+        }
     } catch (error) {
         excepciones.RegistrarExcepcion("No hay conexión al servicio", "TramaLogica.EnviarTramaTanque");
     }
@@ -44,10 +51,10 @@ let EnviarTramaTanque = async(objTrama) => {
 
 let AnalizarTrama = (trama) => {
     var arrayTrama = trama.split(",");
-    console.log(`${arrayTrama[2] / 10}, ${arrayTrama[3]/10}, ${arrayTrama[4]/10}, ${arrayTrama[5]/10} `);
+    //console.log(`${arrayTrama[2] / 10}, ${arrayTrama[3]/10}, ${arrayTrama[4]/10}, ${arrayTrama[5]/10} `);
 }
 
 module.exports = {
     InsertTrama,
-    GetUltimaTrama
+    SendTrama
 }

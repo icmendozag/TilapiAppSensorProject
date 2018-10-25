@@ -2,22 +2,43 @@ const request = require("request");
 const excepciones = require("../Tilapiapp.Logica/ManejoExcepcionesLogica");
 
 
-var getParametrosVariables = {
-    method: 'GET',
-    url: 'http://localhost:53347/Api/GetParametrosVariables',
-    qs: { Id: global.idTanque },
-    headers: { 'Content-Type': 'application/json' }
-};
 
-let CallEnviarTrama = (idTrama, trama) => {
-    var sendTrama = {
+let CallGetParametrosVariables = () => {
+
+    var getParametrosVariables = {
         method: 'GET',
-        url: 'http://localhost:53347/Api/registrarTrama',
-        qs: {
-            IdTrama: idTrama,
-            Trama: trama
+        url: `${global.urlServicioWeb}ObtenerParametros`,
+        qs: { idTanque: global.idTanque },
+        headers: {
+            Authorization: `bearer ${global.serviceRestToken}`
+        }
+    };
+    return new Promise((resolve, reject) => {
+        request(getParametrosVariables, function(err, response, body) {
+            if (err) reject(err);
+            if (response != null) {
+                if (response.statusCode == 200) {
+                    resolve(JSON.parse(body));
+                } else if (response.statusCode == 401) {
+                    excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallGetParametrosVariables");
+                    reject("Acceso no autorizado al servicio");
+                }
+            } else {
+                reject(err)
+            }
+        });
+    });
+}
+
+let CallEnviarTrama = (Trama) => {
+    var sendTrama = {
+        method: 'POST',
+        url: `${global.urlServicioWeb}RegistrarTrama`,
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `bearer ${global.serviceRestToken}`
         },
-        headers: { 'Content-Type': 'application/json' }
+        body: Trama
     };
 
     return new Promise((resolve, reject) => {
@@ -26,6 +47,9 @@ let CallEnviarTrama = (idTrama, trama) => {
             if (response != null) {
                 if (response.statusCode == 200) {
                     resolve(JSON.parse(body));
+                } else if (response.statusCode == 401) {
+                    excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallEnviarTrama");
+                    reject("Acceso no autorizado al servicio");
                 }
             } else {
                 reject(err)
@@ -34,33 +58,53 @@ let CallEnviarTrama = (idTrama, trama) => {
     });
 }
 
-async function EnviarTrama(idTrama, trama) {
-    var result = await CallEnviarTrama(idTrama, trama);
-    return result;
-}
+let CallIniciarSesion = (loginService) => {
 
-let CallActualizarParametrosVariables = () => {
+    console.log(`Ingresa al servicio: ${global.urlServicioWeb}IniciarSesion`);
+
+    let getTokenServicio = {
+        method: 'POST',
+        url: `${global.urlServicioWeb}iniciarSesion`,
+        headers: { 'Content-Type': 'application/json' },
+        body: loginService
+    };;
 
     return new Promise((resolve, reject) => {
-        request(getParametrosVariables, function(err, response, body) {
+        request(getTokenServicio, function(err, response, body) {
             if (err) reject(err);
             if (response != null) {
                 if (response.statusCode == 200) {
                     resolve(JSON.parse(body));
+                } else if (response.statusCode == 401) {
+                    excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallIniciarSesion");
+                    reject("Acceso no autorizado al servicio");
                 }
             } else {
                 reject(err)
+                    //console.log("Error");
             }
         });
     });
 }
 
-async function ActualizarParametrosVariables() {
-    var result = await CallActualizarParametrosVariables(getParametrosVariables);
+
+async function EnviarTrama(Trama) {
+    var result = await CallEnviarTrama(Trama);
+    return result;
+}
+
+async function getParametrosVariables() {
+    var result = await CallGetParametrosVariables(getParametrosVariables);
+    return result;
+}
+
+let IniciarSesionServicio = async() => {
+    var result = await CallIniciarSesion(JSON.stringify(global.loginService));
     return result;
 }
 
 module.exports = {
-    ActualizarParametrosVariables,
+    IniciarSesionServicio,
+    getParametrosVariables,
     EnviarTrama
 }

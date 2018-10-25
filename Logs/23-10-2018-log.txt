@@ -1,0 +1,71 @@
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Tue Oct 23 2018 20:56:23 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Tue Oct 23 2018 20:56:23 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se genero error Error: connect ECONNREFUSED 192.168.0.10:53347 - en el metodo InicioSesionLogica.getTokenServicio
+Tue Oct 23 2018 21:27:49 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se genero error Error: connect ECONNREFUSED 192.168.0.10:53347 - en el metodo InicioSesionLogica.getTokenServicio
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:27:52 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor - en el metodo TramaLogica.EnviarTramaTanque
+Tue Oct 23 2018 21:28:11 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No se ha generado parametrización para este tanque. - en el metodo ParametrosVariablesLogica.getParametrosVariables

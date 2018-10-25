@@ -1,16 +1,15 @@
 const dbExcepcion = require('../Tilapiapp.AccesoDatos/DBExcepciones');
+const logger = require('../Tilapiapp.Utils/Logger');
 
 let RegistrarExcepcion = async(error, metodo) => {
-
     try {
+        let dateNow = new Date();
         await dbExcepcion.SetLogExcepcion(error, metodo);
+        await logger.registrarLog(`${dateNow} - Se genero el error: ${error} - en el metodo ${metodo}`);
     } catch (error) {
-        console.log("Se generó error al insertar excepción: ", error);
-        throw error;
+        await logger.registrarLog(`Se genero el error: ${error}`);
     }
-
 }
-
 module.exports = {
     RegistrarExcepcion
 }
