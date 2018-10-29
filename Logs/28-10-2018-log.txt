@@ -1,0 +1,23 @@
+Sun Oct 28 2018 22:58:54 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:04 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:24 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:44 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 22:59:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Trama cargada correctamente: {"IdTanque":1,"Trama":"T1,22:59,114,24,857,852,106,7,0"} - en el metodo undefined
+Sun Oct 28 2018 22:59:54 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:04 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:24 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:44 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:00:50 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Trama cargada correctamente: {"IdTanque":1,"Trama":"T1,23:0,216,69,545,720,106,7,0"} - en el metodo undefined
+Sun Oct 28 2018 23:00:54 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:01:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:01 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:11 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:21 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:31 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:41 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined
+Sun Oct 28 2018 23:02:47 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Trama cargada correctamente: {"IdTanque":1,"Trama":"T1,23:2,32,21,859,892,106,7,0"} - en el metodo undefined
+Sun Oct 28 2018 23:02:51 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se actualiza estado de la tarjeta - en el metodo undefined

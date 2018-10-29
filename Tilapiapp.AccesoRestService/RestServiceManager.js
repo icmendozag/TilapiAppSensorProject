@@ -60,14 +60,12 @@ let CallEnviarTrama = (Trama) => {
 
 let CallIniciarSesion = (loginService) => {
 
-    console.log(`Ingresa al servicio: ${global.urlServicioWeb}IniciarSesion`);
-
-    let getTokenServicio = {
+    var getTokenServicio = {
         method: 'POST',
         url: `${global.urlServicioWeb}iniciarSesion`,
         headers: { 'Content-Type': 'application/json' },
         body: loginService
-    };;
+    };
 
     return new Promise((resolve, reject) => {
         request(getTokenServicio, function(err, response, body) {
@@ -82,6 +80,79 @@ let CallIniciarSesion = (loginService) => {
             } else {
                 reject(err)
                     //console.log("Error");
+            }
+        });
+    });
+}
+
+let CallEstadoSensor = (sensor) => {
+
+    var sendEstadoSensor = {
+        method: 'POST',
+        url: `${global.urlServicioWeb}estadoSensorAsync`,
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `bearer ${global.serviceRestToken}`
+        },
+        formData: sensor
+    };
+
+    return new Promise((resolve, reject) => {
+        request(sendEstadoSensor, function(err, response, body) {
+
+            try {
+                if (response != null) {
+                    if (response.statusCode == 200) {
+                        resolve(JSON.parse(body));
+                    } else if (response.statusCode == 401) {
+                        excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallEstadoSensor");
+                        reject("Acceso no autorizado al servicio");
+                    }
+                } else {
+                    excepciones.RegistrarExcepcion(`No fue posible enviar el estado del sensor: ${err}`, `RestServiceManager.CallEstadoSensor`);
+                    reject(err);
+                }
+
+            } catch (err) {
+                excepciones.RegistrarExcepcion(`No fue posible enviar el estado del sensor: ${err}`, `RestServiceManager.CallEstadoSensor`);
+                reject(err);
+            }
+        });
+    });
+}
+
+
+let CallEstadoTarjeta = (sensor) => {
+
+    var sendEstadoSensor = {
+        method: 'POST',
+        url: `${global.urlServicioWeb}estadoTarjetaAsync`,
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `bearer ${global.serviceRestToken}`
+        },
+        formData: { idTanque: global.idTanque }
+    };
+
+    return new Promise((resolve, reject) => {
+        request(sendEstadoSensor, function(err, response, body) {
+
+            try {
+                if (response != null) {
+                    if (response.statusCode == 200) {
+                        resolve(JSON.parse(body));
+                    } else if (response.statusCode == 401) {
+                        excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallEstadoTarjeta");
+                        reject("Acceso no autorizado al servicio");
+                    }
+                } else {
+                    excepciones.RegistrarExcepcion(`No fue posible enviar el estado de la tarjeta: ${erro}`, `RestServiceManager.CallEstadoTarjeta`);
+                    reject(err);
+                }
+
+            } catch (err) {
+                excepciones.RegistrarExcepcion(`No fue posible enviar el estado de la tarjeta: ${erro}`, `RestServiceManager.CallEstadoTarjeta`);
+                reject(err);
             }
         });
     });
@@ -103,8 +174,20 @@ let IniciarSesionServicio = async() => {
     return result;
 }
 
+let SendEstadoSensor = async(sensor) => {
+    var result = await CallEstadoSensor(sensor);
+    return result;
+}
+
+let SendEstadoTarjeta = async() => {
+    var result = await CallEstadoTarjeta();
+    return result;
+}
+
 module.exports = {
     IniciarSesionServicio,
     getParametrosVariables,
-    EnviarTrama
+    EnviarTrama,
+    SendEstadoSensor,
+    SendEstadoTarjeta
 }

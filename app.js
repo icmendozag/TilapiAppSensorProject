@@ -15,6 +15,7 @@ if (idTanque != null && userService != null && passwordService != null) {
 
     var intervaloActualizacionParametros;
     var intervaloEnviarTrama;
+    var intervaloEnviarEstadoTarjeta;
 
     /*
     USO DE DOS INTERVALOS
@@ -26,6 +27,7 @@ if (idTanque != null && userService != null && passwordService != null) {
         InitPort();
         IntervaloActualizacionParametros();
         IntervaloEnviarTrama();
+        IntervaloEstadoTarjeta();
     }
 
     //1. Enviar trama
@@ -45,22 +47,31 @@ if (idTanque != null && userService != null && passwordService != null) {
         }, global.tiempoActualizacionParametros);
     }
 
-    //#region Generar Intervalos
 
+    //3. Intervalo enviar estado activo tarjeta
+
+    let IntervaloEstadoTarjeta = () => {
+        intervaloEnviarEstadoTarjeta = setInterval(function() {
+            logicaTrama.SendEstadoTarjeta();
+        }, 10000)
+    }
+
+    //#region Generar Intervalos
     let ReconstruirIntervalosTanque = async() => {
         await clearInterval(intervaloActualizacionParametros);
-        console.log("IntervaloActualizacionParametros borrado ");
         await clearInterval(intervaloEnviarTrama);
-        console.log("IntervaloPrueba borrado");
+        await clearInterval(intervaloEstadoTarjeta);
         await logicaIniciSesion.getTokenServicio();
         IntervaloActualizacionParametros()
+        console.log("IntervaloActualizacionParametros actualizado");
         IntervaloEnviarTrama();
+        console.log("intervaloEnviarTrama actualizado");
+        IntervaloEstadoTarjeta();
     }
 
     //#endregion
-
-
     iniciarApp();
+
 } else {
     console.log("Debe registrar parametros de entrada para iniciar la aplicacion. Tanque, Usuario, Password");
 }

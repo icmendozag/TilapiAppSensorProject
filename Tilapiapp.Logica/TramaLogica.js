@@ -5,7 +5,6 @@ const db = require("../Tilapiapp.AccesoDatos/DBTrama");
 
 let InsertTrama = async(datoTrama) => {
     try {
-        AnalizarTrama(datoTrama);
         await db.SetTrama(datoTrama);
     } catch (err) {
         excepciones.RegistrarExcepcion(`Error al insertar Trama: ${err}`, `TramaLogica.InsertTrama`);
@@ -18,11 +17,12 @@ let SendTrama = async() => {
         .then((dato) => {
             if (dato.trama == -1 && dato.idTrama == -1) {
                 //console.log('La última trama ya fue enviada, validar estado sensor');
-
-                var mensajeExcepcion = 'La última trama ya fue enviada, validar estado sensor';
-                var metodo = 'TramaLogica.EnviarTramaTanque';
-                excepciones.RegistrarExcepcion(mensajeExcepcion, metodo);
+                var sensor = { idTanque: global.idTanque, estado: 0 };
+                var result = serviceRest.SendEstadoSensor(sensor);
+                excepciones.RegistrarExcepcion(`La última trama ya fue enviada, validar estado sensor. ${result}`, 'TramaLogica.EnviarTramaTanque');
             } else {
+                var sensor = { idTanque: global.idTanque, estado: 1 };
+                var result = serviceRest.SendEstadoSensor(sensor);
                 EnviarTramaTanque(dato);
             }
 
@@ -49,12 +49,21 @@ let EnviarTramaTanque = async(objTrama) => {
 
 }
 
-let AnalizarTrama = (trama) => {
-    var arrayTrama = trama.split(",");
-    //console.log(`${arrayTrama[2] / 10}, ${arrayTrama[3]/10}, ${arrayTrama[4]/10}, ${arrayTrama[5]/10} `);
+let SendEstadoTarjeta = async() => {
+    try {
+        var result = await serviceRest.SendEstadoTarjeta();
+        if (result.result == false) {
+            excepciones.RegistrarExcepcion(result.message, "TramaLogica.EnviarEstadoTarjeta");
+        } else if (result.result == true) {
+            excepciones.RegistrarExcepcion(`Se actualiza estado de la tarjeta`);
+        }
+    } catch (error) {
+        excepciones.RegistrarExcepcion("No hay conexión al servicio", "TramaLogica.EnviarEstadoTarjeta");
+    }
 }
 
 module.exports = {
     InsertTrama,
-    SendTrama
+    SendTrama,
+    SendEstadoTarjeta
 }
