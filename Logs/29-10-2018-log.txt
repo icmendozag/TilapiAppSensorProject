@@ -1,0 +1,154 @@
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se genero error Acceso no autorizado al servicio - en el metodo InicioSesionLogica.getTokenServicio
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallGetParametrosVariables
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEnviarTrama
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:19:26 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Se genero error Acceso no autorizado al servicio - en el metodo InicioSesionLogica.getTokenServicio
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallGetParametrosVariables
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:20:55 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallGetParametrosVariables
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo getParametrosVariables
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:24:38 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallIniciarSesion - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallGetParametrosVariables
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallGetParametrosVariables - en el metodo getParametrosVariables
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:34 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: La última trama ya fue enviada, validar estado sensor. [object Promise] - en el metodo TramaLogica.EnviarTramaTanque
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallEstadoSensor
+Mon Oct 29 2018 22:25:35 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallEstadoSensor - en el metodo SendEstadoSensor
+Mon Oct 29 2018 22:27:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:27:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallIniciarSesion - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Mon Oct 29 2018 22:27:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallGetParametrosVariables
+Mon Oct 29 2018 22:27:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallGetParametrosVariables - en el metodo getParametrosVariables
+Mon Oct 29 2018 22:27:14 GMT-0500 (SA Pacific Standard Time) - Se genero el error: No hay conexión al servicio - en el metodo ParametrosVariablesLogica.getParametrosVariables
+Mon Oct 29 2018 22:29:48 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:29:48 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallIniciarSesion - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Mon Oct 29 2018 22:29:57 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:29:57 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallIniciarSesion - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1
+Mon Oct 29 2018 22:30:30 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio web - en el metodo RestServiceManager.CallIniciarSesion
+Mon Oct 29 2018 22:30:30 GMT-0500 (SA Pacific Standard Time) - Se genero el error: Acceso no autorizado al servicio: CallIniciarSesion - en el metodo IniciarSesion
+Se genero el error: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'token' of undefined','InicioSesionLogica.getTokenServicio')' at line 1

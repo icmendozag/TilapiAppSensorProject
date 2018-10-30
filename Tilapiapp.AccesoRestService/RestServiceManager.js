@@ -21,7 +21,7 @@ let CallGetParametrosVariables = () => {
                     resolve(JSON.parse(body));
                 } else if (response.statusCode == 401) {
                     excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallGetParametrosVariables");
-                    reject("Acceso no autorizado al servicio");
+                    reject("Acceso no autorizado al servicio: CallGetParametrosVariables");
                 }
             } else {
                 reject(err)
@@ -75,7 +75,7 @@ let CallIniciarSesion = (loginService) => {
                     resolve(JSON.parse(body));
                 } else if (response.statusCode == 401) {
                     excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallIniciarSesion");
-                    reject("Acceso no autorizado al servicio");
+                    reject("Acceso no autorizado al servicio: CallIniciarSesion");
                 }
             } else {
                 reject(err)
@@ -106,7 +106,7 @@ let CallEstadoSensor = (sensor) => {
                         resolve(JSON.parse(body));
                     } else if (response.statusCode == 401) {
                         excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallEstadoSensor");
-                        reject("Acceso no autorizado al servicio");
+                        reject("Acceso no autorizado al servicio: CallEstadoSensor");
                     }
                 } else {
                     excepciones.RegistrarExcepcion(`No fue posible enviar el estado del sensor: ${err}`, `RestServiceManager.CallEstadoSensor`);
@@ -143,7 +143,7 @@ let CallEstadoTarjeta = (sensor) => {
                         resolve(JSON.parse(body));
                     } else if (response.statusCode == 401) {
                         excepciones.RegistrarExcepcion(`Acceso no autorizado al servicio web`, "RestServiceManager.CallEstadoTarjeta");
-                        reject("Acceso no autorizado al servicio");
+                        reject("Acceso no autorizado al servicio: CallEstadoTarjeta");
                     }
                 } else {
                     excepciones.RegistrarExcepcion(`No fue posible enviar el estado de la tarjeta: ${erro}`, `RestServiceManager.CallEstadoTarjeta`);
@@ -160,28 +160,58 @@ let CallEstadoTarjeta = (sensor) => {
 
 
 async function EnviarTrama(Trama) {
-    var result = await CallEnviarTrama(Trama);
-    return result;
+    try {
+        var result = await CallEnviarTrama(Trama);
+        return result;
+    } catch (error) {
+        console.log(error);
+        excepciones.RegistrarExcepcion(error, `EnviarTrama`);
+    }
+
 }
 
 async function getParametrosVariables() {
-    var result = await CallGetParametrosVariables(getParametrosVariables);
-    return result;
+    try {
+        var result = await CallGetParametrosVariables(getParametrosVariables);
+        return result;
+    } catch (error) {
+        console.log(error);
+        excepciones.RegistrarExcepcion(error, `getParametrosVariables`);
+    }
+
 }
 
 let IniciarSesionServicio = async() => {
-    var result = await CallIniciarSesion(JSON.stringify(global.loginService));
-    return result;
+
+    try {
+        var result = await CallIniciarSesion(JSON.stringify(global.loginService));
+        return result;
+    } catch (error) {
+        console.log(error);
+        excepciones.RegistrarExcepcion(error, `IniciarSesion`);
+    }
+
 }
 
 let SendEstadoSensor = async(sensor) => {
-    var result = await CallEstadoSensor(sensor);
-    return result;
+    try {
+        var result = await CallEstadoSensor(sensor);
+        return result;
+    } catch (error) {
+        console.log(error);
+        excepciones.RegistrarExcepcion(error, `SendEstadoSensor`);
+    }
+
 }
 
 let SendEstadoTarjeta = async() => {
-    var result = await CallEstadoTarjeta();
-    return result;
+    try {
+        var result = await CallEstadoTarjeta();
+        return result;
+    } catch (error) {
+        console.log(error);
+        excepciones.RegistrarExcepcion(error, `SendEstadoTarjeta`);
+    }
 }
 
 module.exports = {

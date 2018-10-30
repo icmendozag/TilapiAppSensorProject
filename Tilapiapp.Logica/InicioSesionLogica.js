@@ -11,8 +11,12 @@ let getTokenServicio = async() => {
         console.log(result);
         global.serviceRestToken = result.token;
         global.tokenExpiration = result.expiration;
+
+        return true;
+
     } catch (error) {
         excepciones.RegistrarExcepcion(`Se genero error ${error}`, "InicioSesionLogica.getTokenServicio");
+        return false;
     }
 }
 

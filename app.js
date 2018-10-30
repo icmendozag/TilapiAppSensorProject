@@ -22,12 +22,15 @@ if (idTanque != null && userService != null && passwordService != null) {
     */
 
     let iniciarApp = async() => {
-        await logicaIniciSesion.getTokenServicio();
-        await parametrosLogica.getParametrosVariables();
-        InitPort();
-        IntervaloActualizacionParametros();
-        IntervaloEnviarTrama();
-        IntervaloEstadoTarjeta();
+        if (await logicaIniciSesion.getTokenServicio()) {
+            await parametrosLogica.getParametrosVariables();
+            InitPort();
+            IntervaloActualizacionParametros();
+            IntervaloEnviarTrama();
+            IntervaloEstadoTarjeta();
+        } else {
+            console.log(`No es posible iniciar la aplicación, autenticación fallida`);
+        }
     }
 
     //1. Enviar trama

@@ -11,7 +11,7 @@ global.serviceRestToken;
 global.tokenExpiration;
 //global.urlServicioWeb = 'http://localhost:53347/Api/';
 //global.urlServicioWeb = 'http://192.168.0.10:5000/Api/';
-global.urlServicioWeb = 'http://localhost:5000/Api/';
+global.urlServicioWeb = 'http://192.168.0.176:5000/Api/';
 
 let InitParametros = async(IdTanque, userService, passwordService) => {
 
