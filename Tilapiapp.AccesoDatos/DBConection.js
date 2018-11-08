@@ -9,13 +9,21 @@ let DbConection = sql.createConnection({
     database: "SensoresDB"
 });
 */
-
+/*
 let DbConection = sql.createConnection({
     host: "192.168.0.131",
     user: "pi",
     password: "Ic3827662/*-",
     database: "SensoresDB"
 });
+*/
+let DbConection = sql.createConnection({
+    host: "192.168.0.131",
+    user: "pi",
+    password: "Tilapi@ppPi",
+    database: "SensoresDB"
+});
+
 
 //Server Ubuntu
 /*

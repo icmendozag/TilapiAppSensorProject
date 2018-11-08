@@ -3,19 +3,15 @@ const Readline = require('@serialport/parser-readline');
 const logicaTrama = require('./Tilapiapp.Logica/TramaLogica');
 
 
+let InitPort = async() => {
 
+    try {
 
-
-/*
+        /*
 var puerto = new SerialPort("/dev/ttyS0", {
     baudRate: 9600
 });
 */
-
-
-let InitPort = async() => {
-
-    try {
 
         var puerto = new SerialPort("COM4", {
             baudRate: 115200
